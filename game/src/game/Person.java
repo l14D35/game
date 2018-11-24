@@ -1,6 +1,7 @@
 package game;
 
 public abstract class Person implements HeroStatic {
+
 	private int health = 0;
 	private int attackDamage = 0;
 
