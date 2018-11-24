@@ -1,12 +1,9 @@
 package game;
 
-import java.util.Random;
+public class Mage extends Person implements HeroStatic {
 
-public class Mage extends Person {
-	Random rand = new Random();
-	
 	Mage() {
 		this.setHealth(50);
-		this.setAttackDamage(rand.nextInt(16) + 15);
+		this.setAttackDamage(getRandomAttack(20,30));
 	}
 }

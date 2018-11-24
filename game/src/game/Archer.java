@@ -1,9 +1,8 @@
 package game;
 
-public class Archer extends Person{
+public class Archer extends Person implements HeroStatic{
 		Archer() {
 			this.setHealth(80);
-			this.setAttackDamage(40);
-			
+			this.setAttackDamage(getRandomAttack(15,30));	
 		}
 }

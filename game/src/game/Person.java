@@ -1,6 +1,6 @@
 package game;
 
-public abstract class Person {
+public abstract class Person implements HeroStatic {
 	private int health = 0;
 	private int attackDamage = 0;
 
@@ -20,5 +20,8 @@ public abstract class Person {
 		this.attackDamage = attackDamage;
 	}
 
-}
+	public int getRandomAttack(int max, int min) {
+		return rand.nextInt(max - min + 1) + min;
+	}
 
+}
