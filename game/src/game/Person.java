@@ -24,7 +24,7 @@ public abstract class Person implements HeroStatic {
 	public void setAttackDamage(int attackDamage) {
 		this.attackDamage = attackDamage;
 	}
-
+  
 	public String getName() {
 		return name;
 	}
@@ -44,6 +44,5 @@ public abstract class Person implements HeroStatic {
 	public String getRandomName() {
 		return namesOfHeroes[getRandomAttack(0, 9)];
 	}
-
 }
 

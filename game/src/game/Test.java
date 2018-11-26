@@ -9,9 +9,10 @@ public class Test {
 	public static void main(String[] args) throws InterruptedException {
 		initTest();
 	}
-	
+
 	/**
 	 * Story
+	 * 
 	 * @throws InterruptedException
 	 */
 	public static void initTest() throws InterruptedException {
@@ -31,9 +32,10 @@ public class Test {
 		tmpName = in.nextLine();
 		in.close();
 	}
-	
+
 	/**
 	 * Wypisuje znaki co 200 milisekund
+	 * 
 	 * @param text ciag znakow
 	 * @throws InterruptedException
 	 */
