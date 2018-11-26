@@ -45,6 +45,4 @@ public class Test {
 		}
 		System.out.println();
 		Thread.sleep(1000);
-	}
-
 }
