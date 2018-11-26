@@ -10,7 +10,6 @@ public class Test {
 		initTest();
 	}
 	
-	
 	/**
 	 * Story
 	 * @throws InterruptedException
